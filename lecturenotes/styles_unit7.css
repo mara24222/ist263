@@ -1,0 +1,30 @@
+h1 {color: #3c97ae}
+/* when you use hex color a # sign is required before the color number*/
+/* hex colors are six digits 0-9 or a-f for each digit*/
+
+
+a:link {color: #00ff00}
+a:visited {color: #ff0000;}
+
+a:hover {
+        text-decoration: wavy; 
+    }
+/* you can change any property in css in a psuedo selector*/ 
+
+
+body {background-color: #000000;
+    background-image: url(images/internet.jpg);
+    background-size: 600px 150px;
+}
+
+/*styling the body tag means the entire browser window content area will be affeted*/
+p{
+    background-color: #fffff;
+    margin: 10px; /*this is the area outside the box*/
+    padding: 10px; /*this is the space immediately around the content*/ 
+    border: 5px solid #aaaaa; /*this is a shortcut value with multiple values*/
+    width: 300px;
+}
+
+/*widt of the box + the margin x 2 border 2 + border x 2 */ 
+
