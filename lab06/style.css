@@ -1,4 +1,6 @@
-<body> {font-family:Courier New;}
-Grouped selectors h1, h2 {color: steelblue;}
-<.special> {color:black}
-<tr> {class="evenrow"}
+body {font-family:Courier New;}
+ h1, h2 {color: steelblue;}
+.special {color:black;}
+.evenrow {
+    background-color: grey;
+ }
