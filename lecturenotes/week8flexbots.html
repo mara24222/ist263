@@ -9,23 +9,28 @@
             body {background-color: #999999;}
             img {width: 150px;}
            /* footer colors background is #000e54, text is #c9cbd0 */
-           .row1 {
+           .row1, .row2 {
            display: flex;     
            }
-           .row1 div {
-               flex 1; 
+           .links{
+               flex: 1;
            }
-        footer{ 
+           .row1 div {
+               flex: 1; 
+           }
+            footer{ 
             background-color: #000e54;
             color: #c9cbd0
-        }
-        .seal {
+           }
+           .seal {
             flex: 2;
-        }
+           }
         </style>
     </head>
     <body>
+        <footer> 
         <div class="row1">  
+            <div class="seal">
             <div> 1 </div>
             <div> 2 </div>
             <div> 3 </div>
@@ -91,6 +96,6 @@
         <a href="http://middlestates.syr.edu/?_ga=1.122695753.313684714.1479758891">Accreditation</a>
         <a href="https://www.syracuse.edu/about/contact/emergencies/">Emergencies</a>
         <a href="https://www.syracuse.edu/about/site/privacy-policy/">Privacy</a>
-         
+    </footer>   
     </body>
 </html>
