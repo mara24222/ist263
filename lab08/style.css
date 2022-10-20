@@ -1,0 +1,6 @@
+body {font-family:Courier New;}
+ h1, h2 {color: steelblue;}
+.special {color:black;}
+.evenrow {
+    background-color: grey;
+ }
