@@ -6,12 +6,12 @@ a:visited {
     color: rgb(178, 203, 142)
 }
 body {
-    background-color: rgb(48, 174, 215);
+    background-color: rgb(65, 134, 209);
 }
 p{
-    background-color: aliceblue;
-    padding: 10px; 
-    margin: 20px;
+    background-color: rgba(202, 211, 219, 0.778);
+    padding: 100px; 
+    margin: 10px;
 }
 h1{
     color:#000000;
