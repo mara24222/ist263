@@ -8,3 +8,43 @@ body {font-family:Courier New;}
     width: 100%;
     
    }
+   a:hover{
+      color: #5c0606;
+  }
+  
+  a:visited {
+      color: rgb(178, 203, 142)
+  }
+  body {
+      background-color: rgb(65, 134, 209);
+  }
+  p{
+      background-color: rgba(202, 211, 219, 0.778);
+      padding: 100px; 
+      margin: 10px;
+  }
+  h1{
+      color:#000000;
+  }
+  h2{
+      color: #000000;
+  }
+  nav {
+      background-color: beige;
+  }
+  nav a {
+      color:rgb(178, 203, 142)
+  }
+  p a {
+      color:azure
+  }
+  nav a:hover {
+      background-color: rgba(208, 124, 207, 0.809);
+  }
+  nav {
+      padding: 10px
+  }
+  nav{
+      margin-bottom: 30px;
+  }
+  
