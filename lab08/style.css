@@ -47,14 +47,52 @@ body {font-family:Courier New;}
   nav{
       margin-bottom: 30px;
   }
-  .float-container {
-   border: 3px solid #fff;
-   padding: 20px;
+  
+.row1, .row2{
+   display:flex;
+   padding: 5px;
+   margin: 10px;
+   background-color: pink;
+   padding-bottom: 30px;
+   border-radius: 1em;
 }
 
-.float-child {
-   width: 50%;
-   float: left;
-   padding: 20px;
-   border: 2px solid red;
-}  
+.address{
+   display: flex;
+   margin:10px;
+}
+
+.row1, .row2{
+   display:flex;
+   padding: 5px;
+   margin: 10px;
+   background-color: pink;
+   padding-bottom: 30px;
+   border-radius: 1em;
+}
+
+.email{
+   display:flex;
+   padding: 5px;
+   margin: 10px;
+   background-color: pink;
+   padding-bottom: 30px;
+   border-radius: 1em;
+}
+.map{
+   display:flex;
+   padding: 5px;
+   margin: 10px;
+   background-color: pink;
+   padding-bottom: 30px;
+   border-radius: 1em;
+}
+
+.form{
+   display:flex;
+   padding: 5px;
+   margin: 10px;
+   background-color: pink;
+   padding-bottom: 30px;
+   border-radius: 1em;
+}
