@@ -7,13 +7,12 @@
     <title>Document</title>
 </head>
 <style>
-    .large{
-        max-width: 100;
-        @media only screen and (max-width: 600px)
-    }
-    .small{
-        min-width: none;
-    }
+    @media only screen and (max-width:800px){body{
+        font-size:40px;
+        .large{display:none;}
+    }}
+    @media only screen and (min-width:799px){body{font: 14px;}}
+    .small{display:none}
 
 </style>
 <body>
