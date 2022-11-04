@@ -96,3 +96,29 @@ body {font-family:Courier New;}
    padding-bottom: 30px;
    border-radius: 1em;
 }
+.headshot{
+    max-width: 700;
+    initial-value: 100;
+}
+@media only screen and (max-width: 600px)
+{body {font-size: 55px;}}
+nav a{max-width: 100%;
+    padding:10px;
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+@media only screen and (min-width:0px){
+.text-piped{ flex-direction: column; 
+    padding: 35px; 
+    justify-content: space-between; 
+    display:flex; 
+    flex-wrap: nowrap;
+}
+.body {font: size 45px;}
+
+@media only screen and (max-width: 599px;) {
+    span{display: none;}
+
+}
