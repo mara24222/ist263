@@ -1,0 +1,123 @@
+body {font-family:Courier New;}
+ h1, h2 {color: steelblue;}
+.special {color:black;}
+.evenrow {
+    background-color: grey;
+ }
+ hr {
+    width: 100%;
+    
+   }
+   a:hover{
+      color: #5c0606;
+  }
+  
+  a:visited {
+      color: black(178, 203, 142)
+  }
+  body {
+      background-color: rgb(65, 134, 209);
+  }
+  p{
+      background-color: rgba(202, 211, 219, 0.778);
+      padding: 100px; 
+      margin: 10px;
+  }
+  h1{
+      color:#000000;
+  }
+  h2{
+      color: #000000;
+  }
+  nav {
+      background-color: beige;
+  }
+  nav a {
+      color:rgb(178, 203, 142)
+  }
+  p a {
+      color:azure
+  }
+  nav a:hover {
+      background-color: rgba(208, 124, 207, 0.809);
+  }
+  nav {
+      padding: 10px
+  }
+  nav{
+      margin-bottom: 30px;
+  }
+  
+.row1, .row2{
+   display:flex;
+   padding: 5px;
+   margin: 10px;
+   background-color: pink;
+   padding-bottom: 30px;
+   border-radius: 1em;
+}
+
+.address{
+   display: flex;
+   margin:10px;
+}
+
+.row1, .row2{
+   display:flex;
+   padding: 5px;
+   margin: 10px;
+   background-color: pink;
+   padding-bottom: 30px;
+   border-radius: 1em;
+}
+
+.email{
+   display:flex;
+   padding: 5px;
+   margin: 10px;
+   background-color: pink;
+   padding-bottom: 30px;
+   border-radius: 1em;
+}
+.map{
+   display:flex;
+   padding: 5px;
+   margin: 10px;
+   background-color: pink;
+   padding-bottom: 30px;
+   border-radius: 1em;
+}
+
+.form{
+   display:flex;
+   padding: 5px;
+   margin: 10px;
+   background-color: pink;
+   padding-bottom: 30px;
+   border-radius: 1em;
+}
+.headshot{
+    max-width: 700;
+    initial-value: 100;
+}
+@media only screen and (max-width: 600px)
+{body {font-size: 55px;}}
+nav a{max-width: 100%;
+    padding:10px;
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+@media only screen and (min-width:0px){
+.text-piped{ flex-direction: column; 
+    padding: 35px; 
+    justify-content: space-between; 
+    display:flex; 
+    flex-wrap: nowrap;
+}
+.body {font: size 45px;}
+
+@media only screen and (max-width: 599px;) {
+    span{display: none;}
+}
