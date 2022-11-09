@@ -5,25 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style> 
-    {
-        background-color:yellow;
-        border 1px :solid 
-    }
-
+    <style>
+        #skip {
+            background-color: #ffa500;
+            border: 1px solid #000000;
+            padding: 2px;
+            position: absolute;  /* out of page flow for layout */
+            left: -999px;
+        }
+        #skip:focus {
+            left: 10px;
+            top: 30px;
+        }
     </style>
 </head>
 <body>
-    <a> Skip to Content</a>
-    <a href="http://www.syr.edu" tabindex="3"> SU</a>
-    <a href="http://www.amazon.com" tabindex="2"> Amazon</a>
-    <a href="http://www.google.com" tabindex="1"> google</a>
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non itaque ab, in voluptatem numquam debitis maxime suscipit cupiditate vel corporis sint neque! Vel earum exercitationem nulla et soluta animi repudiandae?</p>
-   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit temporibus pariatur sapiente autem numquam maxime fuga. Incidunt, voluptates delectus. Delectus maiores distinctio soluta illum temporibus iusto itaque nobis minus!
-   </p>
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas repellat voluptate vel hic impedit odio delectus odit ea, pariatur mollitia eum nesciunt animi sit temporibus tempora quod porro omnis asperiores.</p>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis impedit quaerat deleniti odio earum quisquam. Vitae, alias cum. Atque labore dicta obcaecati doloribus laudantium perspiciatis laboriosam quaerat. Nesciunt, possimus recusandae.
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos laboriosam ullam, reprehenderit similique enim sed necessitatibus doloribus tempore neque sapiente placeat nemo. Quaerat voluptates reiciendis accusamus adipisci iure laboriosam.</p>
-   </p>
+    <a id="skip" tabindex="1" href="#content">Skip to Content</a><br>
+    <!-- # sign in href means bookmark ^^^ link -->
+    <a href="http://www.syr.edu" tabindex="2">SU</a><br>
+    <a href="http://www.amazon.com" tabindex="3">Amazon</a><br>
+    <a href="http://www.google.com" tabindex="4">Google</a>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam modi nulla consectetur recusandae reprehenderit sapiente aspernatur, quaerat, inventore maiores harum dignissimos? Sit qui quaerat nemo non quibusdam animi amet quae.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam modi nulla consectetur recusandae reprehenderit sapiente aspernatur, quaerat, inventore maiores harum dignissimos? Sit qui quaerat nemo non quibusdam animi amet quae.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam modi nulla consectetur recusandae reprehenderit sapiente aspernatur, quaerat, inventore maiores harum dignissimos? Sit qui quaerat nemo non quibusdam animi amet quae.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam modi nulla consectetur recusandae reprehenderit sapiente aspernatur, quaerat, inventore maiores harum dignissimos? Sit qui quaerat nemo non quibusdam animi amet quae.</p>
+    <p id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam modi nulla consectetur recusandae reprehenderit sapiente aspernatur, quaerat, inventore maiores harum dignissimos? Sit qui quaerat nemo non quibusdam animi amet quae.</p>
+    <!-- this is part of our bookmark link -->
 </body>
-</html> 
+</html>
