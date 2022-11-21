@@ -5,7 +5,7 @@ body{background-color: rgb(108, 192, 198);}
     padding: 20px;
     background-color:rgb(235, 205, 235);
     text-align: center;
-    border-radius: 20;
+    border-radius: 100px;
     
     }
 
@@ -17,6 +17,7 @@ body{background-color: rgb(108, 192, 198);}
     display:flex
     align-content: space-between;
     text-align: center;
+    border-radius:80px;
     }
 
     nav{
