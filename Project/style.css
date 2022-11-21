@@ -1,16 +1,16 @@
 body{background-color: rgb(108, 192, 198);}
     p{
     color: rgb(234, 246, 187);
-    h1{
+
+    h1 {
     color: rgb(237, 123, 8);
     text-align: center;}
     
     .images{ 
     display:flex
-    flex-wrap: wrap;
     align-content: space-between;
-    text-align:center;
     }
+    
     nav{
         background-color: black;
     }
