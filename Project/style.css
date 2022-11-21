@@ -1,17 +1,14 @@
-<style>
 body{background-color: rgb(108, 192, 198);}
     p{
     color: rgb(234, 246, 187);
-    display:flex;
-    padding: 5px;
-    margin: 10px;
-    padding-bottom: 30px;
-    border-radius: 1em;}
-    h1{color: rgb(237, 123, 8);}
+    h1{color: rgb(237, 123, 8);
+    text-align:center;}
     
     .images{ 
     display:flex
     flex-wrap: wrap;
     align-content: space-between;
     }
-</style>
+    nav{
+        background-color: black;
+    }
