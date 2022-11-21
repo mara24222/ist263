@@ -9,7 +9,7 @@ body{background-color: rgb(108, 192, 198);}
     display:flex
     flex-wrap: wrap;
     align-content: space-between;
-    row: gap 10px;
+    text-align:center;
     }
     nav{
         background-color: black;
