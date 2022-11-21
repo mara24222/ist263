@@ -1,6 +1,9 @@
 body{background-color: rgb(108, 192, 198);}
     p{
     color: rgb(234, 246, 187);
+    margin: 20px;
+    padding: 40px;
+    }
 
     h1 {
     color: rgb(237, 123, 8);
@@ -9,8 +12,10 @@ body{background-color: rgb(108, 192, 198);}
     .images{ 
     display:flex
     align-content: space-between;
+    text-align: center;
     }
-    
+
     nav{
-        background-color: black;
+        background-color: rgb(249, 220, 249);
+        color: black;
     }
