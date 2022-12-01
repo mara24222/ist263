@@ -23,8 +23,8 @@
         
         #venus, #venusinfo, #earth, #earthinfo, #mars, #marsinfo, #jupiter, #jupiterinfo, #saturn, #saturninfo, #uranus, #uranusinfo, #neptune, #neptuneinfo {display: none;}
 
-        #bigimages {float: left;
-        clear:both}
+        #bigimages {float: left;}
+        #clear{clear: both;}
 
     </style>
     <script>
@@ -36,8 +36,21 @@
             document.getElementById('jupiter').style.display= 'none';
             document.getElementById('saturn').style.display= 'none';
             document.getElementById('uranus').style.display= 'none';
-            document.getElementById('neptune').style.display= 'none';      
+            document.getElementById('neptune').style.display= 'none';    
+            
+            document.getElementById('mercuryinfo').style.display= 'none';
+            document.getElementById('venusinfo').style.display= 'none';
+            document.getElementById('earthinfo').style.display= 'none';
+            document.getElementById('marsinfo').style.display= 'none';
+            document.getElementById('jupiterinfo').style.display= 'none';
+            document.getElementById('saturninfo').style.display= 'none';
+            document.getElementById('uranusinfo').style.display= 'none';
+            document.getElementById('neptuneinfo').style.display= 'none'; 
+        
         }
+
+        
+        
     </script>
 </head>
 <body>
@@ -52,7 +65,8 @@
         <img src="https://laferger.github.io/ist263/images/uranus.jpg" alt="uranus" id="uranus">
         <img src="https://laferger.github.io/ist263/images/neptune.jpg" alt="neptune" id="neptune">
     </div>
-    <div id="planetinfo">        
+    <div id="planetinfo">  
+
         <h1>Planets Slideshow</h1>
         <div id="mercuryinfo">
             <h2>Mercury</h2>
@@ -88,15 +102,16 @@
             <p>Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, slightly more massive than its near-twin Uranus.</p>
         </div>
     </div>
+    <div id="clear"> </div>
     <div id="thumbnails">
-        <img src="https://laferger.github.io/ist263/images/mecury.jpg" alt="mercury" id="mercurythumb">
-        <img src="https://laferger.github.io/ist263/images/venus.jpg" alt="venus" id="venusthumb">
-        <img src="https://laferger.github.io/ist263/images/earth.jpg" alt="earth" id="earththumb">
-        <img src="https://laferger.github.io/ist263/images/mars.jpg" alt="mars" id="marsthumb">
-        <img src="https://laferger.github.io/ist263/images/jupiter.jpg" alt="jupiter" id="jupiterthumb">
-        <img src="https://laferger.github.io/ist263/images/saturn.jpg" alt="saturn" id="saturnthumb">
-        <img src="https://laferger.github.io/ist263/images/uranus.jpg" alt="uranus" id="uranusthumb">
-        <img src="https://laferger.github.io/ist263/images/neptune.jpg" alt="neptune" id="neptunethumb">
+        <img src="https://laferger.github.io/ist263/images/mecury.jpg" alt="mercury" id="mercurythumb" onclick="planetsoff">
+        <img src="https://laferger.github.io/ist263/images/venus.jpg" alt="venus" id="venusthumb" onclick="planetsoff">
+        <img src="https://laferger.github.io/ist263/images/earth.jpg" alt="earth" id="earththumb" onclick="planetsoff">
+        <img src="https://laferger.github.io/ist263/images/mars.jpg" alt="mars" id="marsthumb" onclick="planetsoff">
+        <img src="https://laferger.github.io/ist263/images/jupiter.jpg" alt="jupiter" id="jupiterthumb" onclick="planetsoff">
+        <img src="https://laferger.github.io/ist263/images/saturn.jpg" alt="saturn" id="saturnthumb" onclick="planetsoff">
+        <img src="https://laferger.github.io/ist263/images/uranus.jpg" alt="uranus" id="uranusthumb" onclick="planetsoff">
+        <img src="https://laferger.github.io/ist263/images/neptune.jpg" alt="neptune" id="neptunethumb" onclick="planetsoff">
     </div>
 </div>
 
