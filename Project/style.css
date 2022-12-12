@@ -25,6 +25,8 @@ body{background-color: rgb(176, 230, 234);}
         text-align: center;
         align-content: space-between;
         color: black;
+        display: flex;
+        text-decoration: none;
     }
     nav a{ 
         color: black;
