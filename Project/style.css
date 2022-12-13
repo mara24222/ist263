@@ -4,30 +4,32 @@ body{background-color: rgb(176, 230, 234);}
     margin: 12px;
     padding: 20px;
     background-color:rgb(235, 205, 235);
-    text-align: center;
-    border-radius: 100px;
+    text-align: left;
+    border-radius: 120x;
     font-size: 22px;
     
     }
 
     h1 {
     color: rgb(0, 14, 5);
-    text-align: center;}
+    text-align: left;}
     
     .images{ 
     display:flex
     align-content: space-between;
-    text-align: center;
+    text-align: :left;
     }
 
     nav{
         background-color: rgb(249, 220, 249);
-        text-align: center;
+        text-align: left;
         align-content: space-between;
         color: black;
         display: flex;
         text-decoration: none;
     }
     nav a{ 
-        color: black;
+        color: rgb(10, 0, 0);
+        text-decoration: none;
+        padding: 12px;
     }
